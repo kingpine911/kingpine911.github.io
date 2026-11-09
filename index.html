@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oceane's Dream — Centre de plongée &amp; croisières à Nosy Be, Madagascar</title>
+<meta name="description" content="Oceane's Dream, centre de plongée écolo et responsable à Nosy Be depuis 1990 : plongées, formations ADIP, croisières en catamaran Lagoon 450, séjours plongée + hôtel, excursions et circuit Diego-Suarez.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="alternate" hreflang="fr" href="index.html">
+<link rel="alternate" hreflang="en" href="en/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Oceane's Dream — Centre de plongée &amp; croisières à Nosy Be, Madagascar">
+<meta property="og:description" content="Oceane's Dream, centre de plongée écolo et responsable à Nosy Be depuis 1990 : plongées, formations ADIP, croisières en catamaran Lagoon 450, séjours plongée + hôtel, excursions et circuit Diego-Suarez.">
+
+<!-- ============================================================
+     OCEANE'S DREAM — maquette du site — V10
+     Page générée par sources/build.py : ne pas la modifier ici,
+     mais dans sources/pages/, sources/partiels/, style.css ou script.js.
+     ============================================================ -->
+
+<!-- Typographies : Marcellus (titres), Spectral (chiffres des titres), Outfit (texte), Caveat (accents manuscrits) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Outfit:wght@300;400;500;600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<!-- Chiffres des titres et des prix : Spectral, réduite aux dix chiffres. Dans Marcellus, le 1 se lit « I » et le 0 « O ». -->
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400&text=0123456789&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=362c2dae">
+</head>
+<body class="page-index">
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<!-- ===================== NAVIGATION ===================== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Oceane's Dream — accueil">
+      <img src="assets/img/logo.webp" alt="Logo Oceane's Dream — Diving Club Madagascar">
+    </a>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="le-centre.html" data-nav="centre">Le centre</a>
+      <a href="plongee.html" data-nav="plongee">Plongée</a>
+      <a href="sejours-plongee-hotel.html" data-nav="sejours">Séjours</a>
+      <a href="croisieres.html" data-nav="croisieres">Croisières</a>
+      <a href="excursions.html" data-nav="excursions">Excursions</a>
+      <a href="infos-pratiques.html" data-nav="infos">Infos</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+      <div class="lang" aria-label="Langue"><a class="on" href="index.html" hreflang="fr">FR</a><a href="en/index.html" hreflang="en">EN</a></div>
+    </nav>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Menu mobile plein écran -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="eyebrow" style="color:var(--turquoise)">Depuis 1990</span>
+  <a href="index.html">Accueil</a>
+  <a href="le-centre.html">Le centre</a>
+  <a href="plongee.html">Plongée</a>
+  <a href="sejours-plongee-hotel.html">Séjours plongée + hôtel</a>
+  <a href="croisieres.html">Croisières</a>
+  <a href="excursions.html">Excursions</a>
+  <a href="infos-pratiques.html">Infos pratiques</a>
+  <a href="contact.html">Contact &amp; devis</a>
+  <a href="en/index.html" hreflang="en" class="mm-lang">🇬🇧 English version</a>
+</div>
+
+<!-- Signature : profondimètre lié au défilement -->
+<aside class="depth-gauge" id="depthGauge" aria-hidden="true">
+  <span class="depth-label">Profondeur</span>
+  <div class="depth-track"><div class="depth-fill" id="depthFill"></div></div>
+  <span class="depth-value" id="depthValue">0 m</span>
+</aside>
+
+<main id="contenu">
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="accueil">
+  <div class="hero-slides" id="heroSlides" aria-hidden="true">
+    <div class="hero-slide active"></div>
+    <div class="hero-slide"></div>
+    <div class="hero-slide"></div>
+  </div>
+  <div class="bubbles" id="bubbles" aria-hidden="true"></div>
+  <div class="wrap hero-content">
+    <span class="eyebrow">Nosy Be · Madagascar · depuis 1990</span>
+    <h1>Plongez dans les eaux les plus vivantes de l'océan Indien</h1>
+    <p>Centre de plongée, croisières en catamaran et séjours sur mesure à Nosy Be : Oceane's Dream vous ouvre un Madagascar que peu de voyageurs connaissent.</p>
+    <div class="hero-chips">
+      <span class="chip chip-eco">Plongée écolo &amp; responsable</span>
+      <a href="croisieres.html#mitsio" class="chip promo" data-promo><span>Promo croisière plongée Mitsio · 12–17 décembre · 1 630 €<span class="j" data-jours></span></span></a>
+      <a href="croisieres.html" class="chip promo" data-promo-apres>Croisières Radama &amp; Mitsio · prochains départs sur demande</a>
+    </div>
+    <div class="hero-actions">
+      <a href="#activites" class="btn btn-primary">Découvrir nos formules</a>
+      <a href="croisieres.html" class="btn btn-ghost">Croisières en catamaran</a>
+    </div>
+    <div class="scroll-hint">Explorer</div>
+  </div>
+  <div class="hero-dots" id="heroDots" aria-label="Photos du bandeau">
+    <button type="button" aria-label="Photo 1 : requin-baleine" aria-current="true"></button>
+    <button type="button" aria-label="Photo 2 : catamaran"></button>
+    <button type="button" aria-label="Photo 3 : île de Nosy Be"></button>
+  </div>
+</section>
+
+<!-- ===================== LE CENTRE ===================== -->
+<section class="about" id="club">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <span class="eyebrow">Le centre</span>
+      <h2>Plus de trente ans à explorer les fonds marins de Nosy Be</h2>
+      <p class="lead">Installé sur l'île aux parfums depuis 1990, Oceane's Dream est l'un des clubs de plongée historiques de Madagascar. Notre équipe de moniteurs accompagne aussi bien les plongeurs débutants que les explorateurs confirmés, dans des conditions de sécurité et de confort dignes des plus belles destinations de l'océan Indien.</p>
+      <p class="lead">Tortues, raies manta, requins-baleines en saison, jardins de corail : les sites autour de Nosy Be, Nosy Tanikely ou Nosy Iranja comptent parmi les plus belles îles au monde. Nous les connaissons par cœur.</p>
+      <ul class="about-points">
+        <li><span class="dot"></span><span>Moniteurs diplômés, encadrement en français et en anglais</span></li>
+        <li><span class="dot"></span><span>Petits groupes pour préserver la qualité de chaque plongée</span></li>
+        <li><span class="dot"></span><span>Matériel récent, entretenu et adapté à tous les gabarits</span></li>
+        <li><span class="dot"></span><span>Une approche respectueuse des récifs et de la faune locale</span></li>
+      </ul>
+      <a href="le-centre.html" class="btn btn-line about-cta">Découvrir le centre</a>
+    </div>
+    <div class="about-figure reveal d1">
+      <img src="assets/img/banc-de-poissons.avif" alt="Banc de poissons et plongeur sur un récif de Nosy Be" loading="lazy">
+      <div class="about-badge">
+        <strong>Depuis 1990</strong>
+        <span>Plage d'Ambatoloaka · Nosy Be</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ENGAGEMENT ÉCOLO ===================== -->
+<section class="eco">
+  <div class="wrap eco-inner reveal">
+    <div class="eco-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 21c-4-3-8-6.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 4.5-4 8-8 11z"/><path d="M12 6v15"/></svg>
+    </div>
+    <div>
+      <h3>Plongée écolo &amp; responsable</h3>
+      <p>Le centre s'engage pour une plongée respectueuse du milieu : petits groupes, approche attentive des récifs et de la faune, et des moniteurs qui transmettent les bons gestes à chaque sortie.</p>
+      <div class="eco-pills">
+        <span>Respect des récifs</span>
+        <span>Petits groupes</span>
+        <span>Faune observée, jamais dérangée</span>
+        <span>Sensibilisation à chaque plongée</span>
+      </div>
+      <a href="plongee-ecoresponsable.html" class="text-link">Notre programme avec Madagascar Attitude</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ACTIVITÉS ===================== -->
+<section class="activities" id="activites">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Nos prestations</span>
+      <h2>Six raisons de venir à Madagascar</h2>
+      <p class="lead">De la première bulle sous la surface au circuit dans le grand nord, chaque formule est pensée pour vous faire vivre l'essentiel : l'océan, les îles et la nature malgache.</p>
+    </div>
+    <div class="cards">
+      <!-- 1. Plongée -->
+      <article class="card reveal" tabindex="0" role="link" data-go="plongee.html#tarifs">
+        <img src="assets/img/plongeur-corail-rouge.avif" alt="Plongeur devant un corail rouge de Nosy Be" loading="lazy">
+        <div class="card-body">
+          <span class="card-tag">Plongée</span>
+          <h3>Formules de plongée</h3>
+          <p>Baptêmes, explorations et formations : des sorties quotidiennes adaptées à chaque niveau, sur les plus beaux récifs de Nosy Be.</p>
+          <span class="card-link">Voir les tarifs plongée</span>
+        </div>
+      </article>
+      <!-- 2. Formations ADIP -->
+      <article class="card reveal d1" tabindex="0" role="link" data-go="plongee.html#formations">
+        <img src="assets/img/cours-de-plongee.avif" alt="Cours de plongée en surface avec un moniteur" loading="lazy">
+        <div class="card-body">
+          <span class="card-tag">Formation</span>
+          <h3>Formations ADIP</h3>
+          <p>Du Diver 1★ au Diver 4★ : progressez à votre rythme, avec des moniteurs diplômés, dans des conditions idéales d'apprentissage.</p>
+          <span class="card-link">Voir les tarifs formation</span>
+        </div>
+      </article>
+      <!-- 3. Séjours plongée + hôtel -->
+      <article class="card reveal d2" tabindex="0" role="link" data-go="sejours-plongee-hotel.html">
+        <img src="assets/img/hotel-terrasse.avif" alt="Terrasse d'un hôtel partenaire à Nosy Be" loading="lazy">
+        <div class="card-body">
+          <span class="card-tag">Plongée + hôtel</span>
+          <h3>Séjours plongée + hôtel</h3>
+          <p>Des formules tout compris associant plongées et hébergement sélectionné, pour ne penser qu'à l'essentiel : l'océan.</p>
+          <span class="card-link">Découvrir les séjours</span>
+        </div>
+      </article>
+      <!-- 4. Croisières -->
+      <article class="card reveal" tabindex="0" role="link" data-go="croisieres.html">
+        <img src="assets/img/catamaran-coucher-soleil.avif" alt="Le catamaran au mouillage au coucher du soleil" loading="lazy">
+        <div class="card-body">
+          <span class="card-tag">Croisière</span>
+          <h3>Croisières en catamaran</h3>
+          <p>Plusieurs jours de navigation à bord de notre Lagoon 450, entre mouillages secrets, plongées et couchers de soleil. Formules Radama, Mitsio ou non-plongeur.</p>
+          <span class="card-link">Embarquer</span>
+        </div>
+      </article>
+      <!-- 5. Excursions -->
+      <article class="card reveal d1" tabindex="0" role="link" data-go="excursions.html">
+        <img src="assets/img/lemurien-arbre.avif" alt="Lémurien de Nosy Komba" loading="lazy">
+        <div class="card-body">
+          <span class="card-tag">Excursion</span>
+          <h3>Excursions à Nosy Be</h3>
+          <p>Nosy Iranja, Nosy Komba, cascades et villages : une journée suffit pour comprendre pourquoi on l'appelle l'île aux parfums.</p>
+          <span class="card-link">Explorer l'île</span>
+        </div>
+      </article>
+      <!-- 6. Diego-Suarez -->
+      <article class="card reveal d2" tabindex="0" role="link" data-go="excursions.html#diego">
+        <img src="assets/img/pont-suspendu-tsingy.avif" alt="Pont suspendu au-dessus des Tsingy, région de Diego-Suarez" loading="lazy">
+        <div class="card-body">
+          <span class="card-tag">Grand nord</span>
+          <h3>Circuit à Diego-Suarez</h3>
+          <p>Cap au nord : la baie de Diego, les Tsingy rouges, la mer d'Émeraude et la montagne d'Ambre en un itinéraire inoubliable de 8 jours.</p>
+          <span class="card-link">Voir le circuit</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CROISIÈRES CATAMARAN ===================== -->
+<section class="cruise dark" id="croisieres">
+  <div class="wrap cruise-grid">
+    <div class="reveal">
+      <span class="eyebrow">L'expérience signature</span>
+      <h2>Croisières en catamaran à bord du Lagoon 450</h2>
+      <p>Imaginez : lever l'ancre au petit matin, plonger sur un récif que vous serez seuls à explorer, déjeuner d'un poisson grillé à bord, puis jeter l'ancre devant une plage déserte pour la nuit. Nos croisières s'adressent aux plongeurs comme aux non-plongeurs : chacun y trouve son rythme, entre exploration sous-marine, snorkeling, farniente et navigation.</p>
+      <div class="cruise-specs">
+        <div class="spec"><strong>4 cabines doubles</strong><span>avec salle de bain, WC et ventilateur</span></div>
+        <div class="spec"><strong>Équipage complet</strong><span>skipper, marin, cuisinier et instructeur de plongée</span></div>
+        <div class="spec"><strong>220 volts à bord</strong><span>pour recharger caméras et appareils</span></div>
+        <div class="spec"><strong>Téléphone satellite</strong><span>pour naviguer en toute sérénité</span></div>
+      </div>
+      <div class="promo-box promo-cruise" data-promo>
+        <div class="promo-price">1 630 €</div>
+        <div class="promo-txt"><strong>Promo · croisière plongée Mitsio</strong>Départ du 12 au 17 décembre, à bord du Lagoon 450.</div>
+        <div class="countdown" id="countdown" aria-label="Temps restant avant le départ">
+          <div><b data-cd="j">–</b><small>jours</small></div>
+          <div><b data-cd="h">–</b><small>heures</small></div>
+          <div><b data-cd="m">–</b><small>min</small></div>
+          <div><b data-cd="s">–</b><small>s</small></div>
+        </div>
+      </div>
+      <div class="cruise-actions">
+        <a href="croisieres.html" class="btn btn-primary">Programmes et tarifs</a>
+        <a href="#devis" class="btn btn-ghost" data-devis="croisiere">Demander les dates</a>
+      </div>
+    </div>
+    <div class="reveal d1">
+      <div class="cruise-formulas">
+        <span class="eyebrow" style="color:var(--turquoise);">Trois formules</span>
+        <h3>Choisissez votre archipel</h3>
+        <div class="formula">
+          <div class="formula-ico">R</div>
+          <div>
+            <em>Plongeurs</em>
+            <strong>Croisière Radama</strong>
+            <p>Cap au sud de Nosy Be, vers l'archipel des Radama : tombants, bancs de sable et sites préservés pour les plongeurs.</p>
+          </div>
+        </div>
+        <div class="formula">
+          <div class="formula-ico">M</div>
+          <div>
+            <em>Plongeurs</em>
+            <strong>Croisière Mitsio</strong>
+            <p>Cap au nord, vers l'archipel des Mitsio et ses eaux limpides : une croisière plongée entre îlots volcaniques et jardins de corail.</p>
+          </div>
+        </div>
+        <div class="formula">
+          <div class="formula-ico">☀</div>
+          <div>
+            <em>Non-plongeurs</em>
+            <strong>Croisière découverte</strong>
+            <p>Navigation, snorkeling, plages désertes et farniente : la même aventure, sans bouteilles.</p>
+          </div>
+        </div>
+        <div class="cruise-note">Programmes adaptés à la météo et aux envies du groupe. Dates et tarifs sur demande.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SÉJOURS PLONGÉE + HÔTEL ===================== -->
+<section class="stays" id="sejours">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Formules complètes</span>
+      <h2>Séjours plongée + hôtel</h2>
+      <p class="lead">Six hôtels partenaires à Ambatoloaka et Madirokely, de la chambre avec balcon sur les hauteurs à l'adresse avec piscines au-dessus de la baie. Chaque formule comprend 8 jours / 7 nuits en B&amp;B et un pack de 10 plongées. Nos prix sont indicatifs : séjour à la carte sur demande.</p>
+    </div>
+    <div class="offers">
+      <article class="offer reveal">
+        <div class="offer-img">
+          <img src="assets/img/coucher-de-soleil-1.avif" alt="Bungalow de l'hôtel Coucher de Soleil" loading="lazy">
+        </div>
+        <div class="offer-body">
+          <h3>Coucher de Soleil</h3>
+          <div class="offer-sub">Hôtel B&amp;B · sur les hauteurs d'Ambatoloaka</div>
+          <ul>
+            <li>Balcon avec vue sur mer</li>
+            <li>À 500 m de la plage de Madirokely</li>
+            <li>À 3 min à pied du centre</li>
+          </ul>
+          <div class="offer-foot">
+            <div class="price"><span class="from">À partir de</span> 550 €<small>par personne · 8 jours / 7 nuits + 10 plongées</small></div>
+            <a href="#devis" class="btn btn-line" data-devis="sejour">Demander</a>
+          </div>
+        </div>
+      </article>
+      <article class="offer reveal d1">
+        <div class="offer-img">
+          <span class="offer-flag">Attenant au centre</span>
+          <img src="assets/img/sarimanok-1.avif" alt="Terrasse et piscine de l'hôtel Sarimanok, face à la mer" loading="lazy">
+        </div>
+        <div class="offer-body">
+          <h3>Sarimanok</h3>
+          <div class="offer-sub">Hôtel B&amp;B · en bord de mer</div>
+          <ul>
+            <li>Piscine extérieure, bar et terrasse</li>
+            <li>Au cœur du village d'Ambatoloaka</li>
+            <li>Attenant au centre de plongée</li>
+          </ul>
+          <div class="offer-foot">
+            <div class="price"><span class="from">À partir de</span> 895 €<small>par personne · 8 jours / 7 nuits + 10 plongées</small></div>
+            <a href="#devis" class="btn btn-primary" data-devis="sejour">Demander</a>
+          </div>
+        </div>
+      </article>
+      <article class="offer reveal d2">
+        <div class="offer-img">
+          <img src="assets/img/heure-bleue-1.avif" alt="Bungalows de l'hôtel Heure Bleue au-dessus de la baie" loading="lazy">
+        </div>
+        <div class="offer-body">
+          <h3>Heure Bleue</h3>
+          <div class="offer-sub">Hôtel B&amp;B · surplombant la baie de Madirokely</div>
+          <ul>
+            <li>Niché dans un jardin luxuriant</li>
+            <li>2 piscines, bar et restaurant</li>
+            <li>À 20 min à pied du centre par la plage</li>
+          </ul>
+          <div class="offer-foot">
+            <div class="price"><span class="from">À partir de</span> 1 080 €<small>par personne · 8 jours / 7 nuits + 10 plongées</small></div>
+            <a href="#devis" class="btn btn-line" data-devis="sejour">Demander</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="section-more reveal"><a href="sejours-plongee-hotel.html" class="btn btn-line">Voir les six hôtels</a></div>
+  </div>
+</section>
+
+<!-- ===================== CHIFFRES CLÉS ===================== -->
+<section class="stats dark">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat reveal"><strong data-count="1990">0</strong><span>année de création du centre</span></div>
+      <div class="stat reveal d1"><strong data-count="36" data-suffix=" ans">0</strong><span>d'expérience à Nosy Be</span></div>
+      <div class="stat reveal d2"><strong data-count="4" data-suffix=" cabines">0</strong><span>à bord du Lagoon 450</span></div>
+      <div class="stat reveal d3"><strong class="soleil">1★ → 4★</strong><span>formations ADIP, du débutant au confirmé</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXCURSIONS & CIRCUIT ===================== -->
+<section class="explore" id="excursions">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Au-delà de la plongée</span>
+      <h2>Explorer Nosy Be et le grand nord</h2>
+      <p class="lead">Madagascar ne se résume pas à ses fonds marins. Nos excursions et notre circuit vers Diego-Suarez prolongent le voyage à terre, entre plages, forêts et paysages que l'on ne voit nulle part ailleurs.</p>
+    </div>
+    <div class="explore-grid">
+      <article class="panel reveal">
+        <img src="assets/img/nosy-iranja.avif" alt="Nosy Iranja vue depuis la colline" loading="lazy">
+        <div class="panel-body">
+          <span class="eyebrow" style="color:#fff;">À la journée</span>
+          <h3>Excursions à Nosy Be</h3>
+          <p>Banc de sable de Nosy Iranja, lémuriens de Nosy Komba, réserve marine de Nosy Tanikely, cascades et villages : composez vos journées entre mer et terre, accompagnés de guides qui connaissent chaque recoin de l'île.</p>
+          <div class="itinerary">
+            <span class="step">Nosy Iranja</span>
+            <span class="step">Nosy Komba</span>
+            <span class="step">Nosy Tanikely</span>
+            <span class="step">Cascades &amp; villages</span>
+          </div>
+          <p class="panel-sub">Dès 40 € par personne la journée, déjeuner inclus.</p>
+          <div class="panel-actions">
+            <a href="excursions.html" class="btn btn-primary">Excursions et tarifs</a>
+            <a href="#devis" class="btn btn-ghost" data-devis="excursion">Organiser une excursion</a>
+          </div>
+        </div>
+      </article>
+      <article class="panel reveal d1">
+        <img src="assets/img/pont-suspendu-tsingy.avif" alt="Pont suspendu au-dessus des Tsingy" loading="lazy">
+        <div class="panel-body">
+          <span class="eyebrow" style="color:#fff;">Circuit dans le grand nord</span>
+          <h3>Circuit à Diego-Suarez</h3>
+          <p>Cap sur l'extrême nord de Madagascar : la baie de Diego-Suarez, l'une des plus belles du monde, les Tsingy rouges sculptés par l'érosion, la mer d'Émeraude et la forêt primaire de la montagne d'Ambre. Un condensé du Madagascar sauvage, en petit groupe.</p>
+          <div class="itinerary">
+            <span class="step">Baie de Diego</span>
+            <span class="step">Tsingy rouges</span>
+            <span class="step">Mer d'Émeraude</span>
+            <span class="step">Montagne d'Ambre</span>
+          </div>
+          <div class="promo-box">
+            <div class="promo-price">1 260 €<small>par personne</small></div>
+            <div class="promo-txt"><strong>8 jours / 7 nuits</strong>En 4×4, à pied, en boutre et en pirogue. Minimum 2 participants.</div>
+          </div>
+          <div class="panel-actions">
+            <a href="excursions.html#diego" class="btn btn-primary">Voir le programme jour par jour</a>
+            <a href="#devis" class="btn btn-ghost" data-devis="diego">Demander les dates</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CARTE DES LIEUX ===================== -->
+<section class="map-section dark" id="carte">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Nos terrains de jeu</span>
+      <h2>De Nosy Be au grand nord</h2>
+      <p class="lead">Touchez un lieu pour découvrir ce qui vous y attend : les îles des excursions, les archipels des croisières et le circuit vers Diego-Suarez.</p>
+    </div>
+    <div class="map-grid">
+      <div class="map-frame reveal">
+        <svg class="map-svg" viewBox="0 0 780 720" role="group" aria-label="Carte illustrée de Nosy Be et du nord de Madagascar">
+          <path class="houle" d="M30,190 q20,-10 40,0 t40,0 t40,0"/>
+          <path class="houle" d="M20,300 q20,-10 40,0 t40,0 t40,0"/>
+          <path class="houle" d="M30,610 q20,-10 40,0 t40,0 t40,0"/>
+          <path class="houle" d="M50,690 q20,-10 40,0 t40,0 t40,0"/>
+          <text class="mer-lbl" x="34" y="240">Canal du</text><text class="mer-lbl" x="34" y="272">Mozambique</text>
+          <text class="mer-lbl" x="770" y="200" text-anchor="end">Océan</text><text class="mer-lbl" x="770" y="232" text-anchor="end">Indien</text>
+          <path class="terre" d="M174,735 L162,669 L195,621 L210,573 L186,531 L198,501 L219,486 L246,510 L285,531 L330,555 L318,513 L309,501 L345,474 L390,450 L435,405 L468,363 L495,315 L510,267 L522,210 L537,153 L555,93 L573,42 L591,27 L603,54 L609,90 L591,102 L573,117 L570,138 L591,144 L615,126 L636,135 L660,180 L684,237 L720,315 L762,390 L795,450 L840,525 L840,765 L150,765 Z"/>
+          <path class="relief" d="M470,470 q60,-40 90,-120 M520,500 q70,-50 100,-150 M580,540 q60,-60 80,-160"/>
+          <text class="terre-lbl" x="470" y="690" transform="rotate(-58 470 690)">MADAGASCAR</text>
+          <path class="ile" d="M267,408 L294,393 L318,411 L324,435 L309,456 L291,468 L270,468 L255,453 L252,429 Z"/>
+          <ellipse class="ile" cx="314" cy="482" rx="9" ry="7"/>
+          <ellipse class="ile" cx="282" cy="492" rx="4" ry="3"/>
+          <ellipse class="ile" cx="156" cy="525" rx="6" ry="4"/>
+          <ellipse class="ile" cx="60" cy="645" rx="6" ry="4"/>
+          <ellipse class="ile" cx="74" cy="657" rx="4" ry="3"/>
+          <ellipse class="ile" cx="55" cy="660" rx="3" ry="2"/>
+          <ellipse class="ile" cx="390" cy="315" rx="6" ry="5"/>
+          <ellipse class="ile" cx="402" cy="305" rx="4" ry="3"/>
+          <ellipse class="ile" cx="380" cy="325" rx="3" ry="2"/>
+          <path class="route mer" d="M270,470 C215,440 225,360 290,340 S360,318 376,318"/>
+          <path class="route mer" d="M268,472 Q225,445 170,518"/>
+          <path class="route mer" d="M150,538 Q100,580 76,638"/>
+          <path class="route terre-r" d="M309,508 C420,470 560,330 590,145"/>
+          <circle class="spot" cx="609" cy="213" r="6"/><text class="spot-lbl" x="621" y="218" text-anchor="start">Tsingy rouges</text>
+          <circle class="spot" cx="555" cy="201" r="6"/><text class="spot-lbl" x="543" y="206" text-anchor="end">Montagne d'Ambre</text>
+          <circle class="spot" cx="633" cy="108" r="6"/><text class="spot-lbl" x="645" y="113" text-anchor="start">Mer d'Émeraude</text>
+          <g class="pin base" data-lieu="1" tabindex="0" role="button" aria-label="Nosy Be"><circle class="halo" cx="291" cy="432" r="15"/><circle class="dot" cx="291" cy="432" r="15"/><text x="291" y="432">1</text><text class="nom g" x="267" y="438">Nosy Be</text></g>
+          <g class="pin" data-lieu="2" tabindex="0" role="button" aria-label="Nosy Tanikely"><circle class="halo" cx="282" cy="492" r="15"/><circle class="dot" cx="282" cy="492" r="15"/><text x="282" y="492">2</text><text class="nom g" x="258" y="498">Nosy Tanikely</text></g>
+          <g class="pin" data-lieu="3" tabindex="0" role="button" aria-label="Nosy Komba"><circle class="halo" cx="314" cy="482" r="15"/><circle class="dot" cx="314" cy="482" r="15"/><text x="314" y="482">3</text><text class="nom" x="338" y="488">Nosy Komba</text></g>
+          <g class="pin" data-lieu="4" tabindex="0" role="button" aria-label="Nosy Iranja"><circle class="halo" cx="156" cy="525" r="15"/><circle class="dot" cx="156" cy="525" r="15"/><text x="156" y="525">4</text><text class="nom g" x="132" y="531">Nosy Iranja</text></g>
+          <g class="pin" data-lieu="5" tabindex="0" role="button" aria-label="Archipel des Radama"><circle class="halo" cx="66" cy="651" r="15"/><circle class="dot" cx="66" cy="651" r="15"/><text x="66" y="651">5</text><text class="nom" x="90" y="657">Archipel des Radama</text></g>
+          <g class="pin" data-lieu="6" tabindex="0" role="button" aria-label="Archipel des Mitsio"><circle class="halo" cx="390" cy="315" r="15"/><circle class="dot" cx="390" cy="315" r="15"/><text x="390" y="315">6</text><text class="nom g" x="366" y="321">Archipel des Mitsio</text></g>
+          <g class="pin" data-lieu="7" tabindex="0" role="button" aria-label="Diego-Suarez"><circle class="halo" cx="597" cy="129" r="15"/><circle class="dot" cx="597" cy="129" r="15"/><text x="597" y="129">7</text><text class="nom g" x="573" y="135">Diego-Suarez</text></g>
+          <g transform="translate(60 70)" aria-hidden="true"><circle r="26" fill="none" stroke="rgba(255,255,255,.3)"/><path d="M0,-22 L6,0 L0,-4 L-6,0 Z" fill="#fff"/><path d="M0,22 L6,0 L0,4 L-6,0 Z" fill="rgba(255,255,255,.4)"/><text y="-32" text-anchor="middle" fill="#fff" font-size="14" font-family="Outfit, sans-serif">N</text></g>
+        </svg>
+        <div class="map-legend"><span><i></i>Excursions &amp; croisières en mer</span><span><i class="t"></i>Circuit dans le grand nord</span><em>Carte illustrative</em></div>
+      </div>
+      <div class="reveal d1">
+        <div class="map-places" role="group" aria-label="Les lieux">
+          <button type="button" data-lieu="1" aria-pressed="true"><b>1</b>Nosy Be</button>
+          <button type="button" data-lieu="2" aria-pressed="false"><b>2</b>Nosy Tanikely</button>
+          <button type="button" data-lieu="3" aria-pressed="false"><b>3</b>Nosy Komba</button>
+          <button type="button" data-lieu="4" aria-pressed="false"><b>4</b>Nosy Iranja</button>
+          <button type="button" data-lieu="5" aria-pressed="false"><b>5</b>Archipel des Radama</button>
+          <button type="button" data-lieu="6" aria-pressed="false"><b>6</b>Archipel des Mitsio</button>
+          <button type="button" data-lieu="7" aria-pressed="false"><b>7</b>Diego-Suarez</button>
+        </div>
+        <div class="map-info" aria-live="polite">
+          <article data-lieu="1" class="on">
+            <em>Notre port d'attache</em>
+            <h3>Nosy Be · Ambatoloaka</h3>
+            <p>Le centre est installé sur la plage d'Ambatoloaka depuis 1990. Point de départ des sorties plongée quotidiennes, pour tous les niveaux, du baptême aux formations ADIP.</p>
+            <a href="plongee.html" class="btn btn-ghost">Voir les formules</a>
+          </article>
+          <article data-lieu="2">
+            <em>Excursion · plongée</em>
+            <h3>Nosy Tanikely</h3>
+            <p>Une réserve marine au large de Nosy Be, parmi les sites que nos moniteurs connaissent par cœur.</p>
+            <a href="excursions.html#journee" class="btn btn-ghost">Voir les excursions</a>
+          </article>
+          <article data-lieu="3">
+            <em>Excursion à la journée</em>
+            <h3>Nosy Komba</h3>
+            <p>L'île des lémuriens, face à Nosy Be : une excursion à la journée pour aller à leur rencontre.</p>
+            <a href="excursions.html#journee" class="btn btn-ghost">Voir les excursions</a>
+          </article>
+          <article data-lieu="4">
+            <em>Excursion à la journée</em>
+            <h3>Nosy Iranja</h3>
+            <p>Deux îlots reliés par un banc de sable : l'excursion carte postale par excellence.</p>
+            <a href="excursions.html#journee" class="btn btn-ghost">Voir les excursions</a>
+          </article>
+          <article data-lieu="5">
+            <em>Croisière plongeurs</em>
+            <h3>Archipel des Radama</h3>
+            <p>Cap au sud de Nosy Be, à bord du Lagoon 450 : tombants, bancs de sable et sites préservés pour les plongeurs.</p>
+            <a href="croisieres.html#radama" class="btn btn-ghost">Voir les croisières</a>
+          </article>
+          <article data-lieu="6">
+            <em>Croisière plongeurs</em>
+            <h3>Archipel des Mitsio</h3>
+            <p>Cap au nord, vers les eaux limpides des Mitsio : une croisière plongée entre îlots volcaniques et jardins de corail.</p>
+            <p class="map-promo" data-promo><strong style="color:#ffd77a;font-weight:500;">Promo : départ du 12 au 17 décembre, 1 630 €.</strong></p>
+            <a href="croisieres.html#mitsio" class="btn btn-ghost">Voir les croisières</a>
+          </article>
+          <article data-lieu="7">
+            <em>Circuit dans le grand nord</em>
+            <h3>Diego-Suarez</h3>
+            <p>La baie de Diego-Suarez, les Tsingy rouges, la mer d'Émeraude et la montagne d'Ambre : un condensé du Madagascar sauvage, en petit groupe.</p>
+            <a href="excursions.html#diego" class="btn btn-ghost">Voir le circuit</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CARNET DE VOYAGE ===================== -->
+<section class="gallery" id="galerie">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Carnet de voyage</span>
+      <h2>Des images plus que des mots</h2>
+    </div>
+    <div class="mosaic reveal">
+      <figure class="tile tall"><img src="assets/img/gorgone-poissons-cochers.avif" alt="Poissons-cochers devant une gorgone orange" loading="lazy"><figcaption>Gorgone et poissons-cochers, Nosy Be</figcaption></figure>
+      <figure class="tile wide"><img src="assets/img/nosy-iranja.avif" alt="Nosy Iranja et son banc de sable" loading="lazy"><figcaption>Le banc de sable de Nosy Iranja</figcaption></figure>
+      <figure class="tile"><img src="assets/img/enfants-village.avif" alt="Enfants d'un village de Nosy Be" loading="lazy"><figcaption>Sourires de Nosy Be</figcaption></figure>
+      <figure class="tile"><img src="assets/img/lemurien-portrait.avif" alt="Lémurien propithèque dans un arbre" loading="lazy"><figcaption>Lémurien de Nosy Komba</figcaption></figure>
+      <figure class="tile wide"><img src="assets/img/catamaran-cote.avif" alt="Le catamaran le long de la côte" loading="lazy"><figcaption>Le Lagoon 450 en navigation côtière</figcaption></figure>
+      <figure class="tile wide"><img src="assets/img/catamaran-navigation.avif" alt="Le catamaran sous voiles" loading="lazy"><figcaption>Sous voiles, cap sur les Mitsio</figcaption></figure>
+      <figure class="tile"><img src="assets/img/plongeur-corail-rouge.avif" alt="Plongeur et corail rouge" loading="lazy"><figcaption>Corail mou, Nosy Tanikely</figcaption></figure>
+      <figure class="tile"><img src="assets/img/raie-manta.webp" alt="Raie manta planant au-dessus du récif" loading="lazy"><figcaption>Raie manta au passage</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SUIVEZ-NOUS ===================== -->
+<section class="social" id="reseaux">
+  <div class="wrap">
+    <div class="social-panel reveal">
+      <!-- Trois photos du site officiel, façon polaroïd : décor, les liens sont à droite -->
+      <div class="polaroids" aria-hidden="true">
+        <figure class="polaroid p1"><img src="assets/img/sakatia-tortue.avif" alt="" loading="lazy"><figcaption>Nosy Sakatia</figcaption></figure>
+        <figure class="polaroid p2"><img src="assets/img/accueil-a-bord.avif" alt="" loading="lazy"><figcaption>À bord du catamaran</figcaption></figure>
+        <figure class="polaroid p3"><img src="assets/img/cameleon-vert.avif" alt="" loading="lazy"><figcaption>Parc de Lokobe</figcaption></figure>
+      </div>
+      <div class="social-text">
+        <span class="eyebrow">Suivez l'aventure</span>
+        <h2>Nosy Be au quotidien, en photos et en vidéos</h2>
+        <p>Les plongées du jour, la vie à bord du catamaran et les rencontres sous l'eau : l'équipe partage l'aventure sur les réseaux.</p>
+        <ul class="social-links">
+          <li><a href="https://www.instagram.com/oceanes_dream/" target="_blank" rel="noopener">
+            <span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></span>
+            <span class="s-name"><strong>Instagram</strong><small>@oceanes_dream</small></span>
+            <span class="s-go">Suivre <span aria-hidden="true">→</span></span>
+          </a></li>
+          <li><a href="https://www.tiktok.com/@ocanes.dream" target="_blank" rel="noopener">
+            <span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 2h-3v13.2a2.8 2.8 0 1 1-2.8-2.8c.3 0 .6 0 .8.1V9.4a5.8 5.8 0 1 0 5 5.8V8.6a7 7 0 0 0 4.1 1.3v-3a4.1 4.1 0 0 1-4.1-4.1V2z"/></svg></span>
+            <span class="s-name"><strong>TikTok</strong><small>@ocanes.dream</small></span>
+            <span class="s-go">Regarder <span aria-hidden="true">→</span></span>
+          </a></li>
+          <li><a href="https://www.facebook.com/oceans.dream207/" target="_blank" rel="noopener">
+            <span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></span>
+            <span class="s-name"><strong>Facebook</strong><small>Oceane's Dream</small></span>
+            <span class="s-go">Rejoindre <span aria-hidden="true">→</span></span>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TÉMOIGNAGES ===================== -->
+<section class="reviews dark">
+  <div class="wrap">
+    <div class="section-head reveal" style="text-align:center; margin-left:auto; margin-right:auto;">
+      <span class="eyebrow">Ils ont plongé avec nous</span>
+      <h2>Paroles de voyageurs</h2>
+    </div>
+    <div class="carousel reveal">
+      <div class="slides" id="slides">
+        <!-- Avis réel repris du site officiel -->
+        <div class="slide active">
+          <div class="stars">★★★★★</div>
+          <blockquote>« Juste rentré d'une croisière plongée Radama sur le catamaran. Un sans-faute ! Le guide connaît parfaitement les sites, le capitaine et son équipage donnent volontiers des renseignements sur les mouillages. Une mention particulière au cuisinier, à l'unanimité des plongeurs élu top chef ! Plongées très variées. »</blockquote>
+          <div class="who">Pierre B. · croisière plongée Radama</div>
+        </div>
+        <!-- Avis à remplacer par de vrais témoignages clients -->
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <blockquote>« Trente ans de plongée derrière moi et je n'avais jamais vu des récifs aussi vivants. L'équipe connaît chaque site par cœur, on se sent en confiance dès la première bulle. »</blockquote>
+          <div class="who">Marc D. · Lyon, France</div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <blockquote>« Baptême de plongée pour toute la famille, enfants compris. Une patience et un professionnalisme remarquables. Nos enfants ne parlent plus que de Nosy Be. »</blockquote>
+          <div class="who">Famille Rakoto · Antananarivo, Madagascar</div>
+        </div>
+      </div>
+      <button class="car-arrow car-prev" id="prevSlide" aria-label="Témoignage précédent">←</button>
+      <button class="car-arrow car-next" id="nextSlide" aria-label="Témoignage suivant">→</button>
+      <div class="carousel-nav" id="carouselNav"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ASSISTANT DE DEVIS ===================== -->
+<section class="quote" id="devis">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Devis sur mesure</span>
+      <h2>Votre voyage en trois questions</h2>
+      <p class="lead" style="margin:0 auto;">Répondez en quelques clics : votre demande est prête à partir sur WhatsApp ou par e-mail, et l'équipe vous répond sous 24 heures.</p>
+    </div>
+    <div class="quote-card reveal" id="quote">
+      <ol class="quote-steps">
+        <li class="on"><b>1</b><span>Votre envie</span></li>
+        <li><b>2</b><span>Votre groupe</span></li>
+        <li><b>3</b><span>Vos dates</span></li>
+      </ol>
+      <div class="quote-body">
+        <div class="q-step on" data-step="1">
+          <h3>Qu'aimeriez-vous vivre ?</h3>
+          <p>Choisissez l'activité principale, vous pourrez tout préciser ensuite.</p>
+          <div class="q-options">
+            <button type="button" class="q-opt" data-envie="plongee" aria-pressed="false"><span class="e" aria-hidden="true">🤿</span><span><span class="lbl">Plongée</span><small>baptême, exploration</small></span></button>
+            <button type="button" class="q-opt" data-envie="formation" aria-pressed="false"><span class="e" aria-hidden="true">🎓</span><span><span class="lbl">Formation ADIP</span><small>du 1★ au 4★</small></span></button>
+            <button type="button" class="q-opt" data-envie="sejour" aria-pressed="false"><span class="e" aria-hidden="true">🏝️</span><span><span class="lbl">Séjour plongée + hôtel</span><small>clés en main</small></span></button>
+            <button type="button" class="q-opt" data-envie="croisiere" aria-pressed="false"><span class="e" aria-hidden="true">⛵</span><span><span class="lbl">Croisière catamaran</span><small>Lagoon 450</small></span></button>
+            <button type="button" class="q-opt" data-envie="excursion" aria-pressed="false"><span class="e" aria-hidden="true">🐒</span><span><span class="lbl">Excursions à Nosy Be</span><small>îles et villages</small></span></button>
+            <button type="button" class="q-opt" data-envie="diego" aria-pressed="false"><span class="e" aria-hidden="true">🧭</span><span><span class="lbl">Circuit Diego-Suarez</span><small>le grand nord</small></span></button>
+          </div>
+        </div>
+        <div class="q-step" data-step="2">
+          <h3>Qui part avec vous ?</h3>
+          <p>Pour vous proposer les bonnes plongées et la bonne formule.</p>
+          <div id="qFormule">
+            <span class="q-label">Quelle croisière ?</span>
+            <div class="q-chips" data-champ="formule">
+              <button type="button" aria-pressed="false">Radama (plongeurs)</button>
+              <button type="button" aria-pressed="false">Mitsio (plongeurs)</button>
+              <button type="button" aria-pressed="false">Découverte (non-plongeurs)</button>
+              <button type="button" aria-pressed="false">Je ne sais pas encore</button>
+            </div>
+          </div>
+          <span class="q-label">Niveau de plongée</span>
+          <div class="q-chips" data-champ="niveau">
+            <button type="button" aria-pressed="false">Jamais plongé</button>
+            <button type="button" aria-pressed="false">Débutant</button>
+            <button type="button" aria-pressed="false">Plongeur certifié</button>
+            <button type="button" aria-pressed="false">Plongeur confirmé</button>
+            <button type="button" aria-pressed="false">Je ne plonge pas</button>
+          </div>
+          <span class="q-label">Nombre de voyageurs</span>
+          <div class="q-stepper"><button type="button" data-nb="-1" aria-label="Un voyageur de moins">−</button><output id="qNb" aria-live="polite">2</output><button type="button" data-nb="1" aria-label="Un voyageur de plus">+</button></div>
+          <div class="q-nav"><button type="button" class="q-back" data-aller="1">← Retour</button><button type="button" class="btn btn-primary" data-aller="3">Continuer</button></div>
+        </div>
+        <div class="q-step" data-step="3">
+          <h3>Quand venez-vous ?</h3>
+          <p>Même approximatif : l'équipe s'adapte.</p>
+          <div class="q-row">
+            <div class="q-field"><label class="q-label" for="qPeriode">Période</label><select id="qPeriode" data-mois><option value="">Dates flexibles</option></select></div>
+            <div class="q-field"><label class="q-label" for="qPrenom">Votre prénom</label><input type="text" id="qPrenom" placeholder="Facultatif" autocomplete="given-name"></div>
+          </div>
+          <span class="q-label">Durée du séjour</span>
+          <div class="q-chips" data-champ="duree">
+            <button type="button" aria-pressed="false">Quelques jours</button>
+            <button type="button" aria-pressed="false">Une semaine</button>
+            <button type="button" aria-pressed="false">Plus d'une semaine</button>
+            <button type="button" aria-pressed="false">À définir</button>
+          </div>
+          <span class="q-recap-t">Votre demande</span>
+          <div class="q-recap" id="qRecap"></div>
+          <div class="q-nav">
+            <button type="button" class="q-back" data-aller="2">← Retour</button>
+            <div class="q-send">
+              <a class="btn btn-wa" id="qWa" href="https://wa.me/261320712782" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.3-.4-.4z"/></svg>Envoyer sur WhatsApp</a>
+              <a class="btn btn-line" id="qMail" href="mailto:resa@oceanesdream.com">Envoyer par e-mail</a>
+            </div>
+          </div>
+          <p class="q-hint">WhatsApp ou votre messagerie s'ouvre avec le message prêt : il ne reste qu'à l'envoyer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <span class="eyebrow">Préparez votre voyage</span>
+      <h2>Parlons de votre prochain voyage</h2>
+      <p class="lead">Une question sur une formule, une croisière ou un séjour ? Écrivez-nous : nous répondons sous 24 heures, en français ou en anglais.</p>
+      <div class="contact-info">
+        <div class="c-line">
+          <div class="c-ico"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+          <div><strong>Océane's Dream</strong><span>Plage d'Ambatoloaka, Be 207, Nosy Be, Madagascar</span></div>
+        </div>
+        <div class="c-line">
+          <div class="c-ico"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></div>
+          <div><a href="tel:+261320712782"><strong>+261 32 07 127 82</strong></a><span>WhatsApp · tous les jours, 8h – 18h</span></div>
+        </div>
+        <div class="c-line">
+          <div class="c-ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+          <div><a href="mailto:resa@oceanesdream.com"><strong>resa@oceanesdream.com</strong></a><span>réponse sous 24 h</span></div>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <a href="https://wa.me/261320712782" target="_blank" rel="noopener" class="btn btn-wa">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.3-.4-.4z"/></svg>
+          Écrire sur WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="form-card reveal d1">
+      <!-- Formulaire : ouvre WhatsApp ou la messagerie du visiteur avec le message pré-rempli -->
+      <div id="formFields">
+        <div class="form-grid">
+          <div class="field">
+            <label for="f-nom">Nom</label>
+            <input type="text" id="f-nom" placeholder="Votre nom" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="f-email">E-mail</label>
+            <input type="email" id="f-email" placeholder="vous@exemple.com" autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="f-activite">Je suis intéressé(e) par</label>
+            <select id="f-activite">
+              <option>Formules de plongée</option>
+              <option>Formation ADIP</option>
+              <option>Séjour plongée + hôtel</option>
+              <option>Croisière Radama (plongeurs)</option>
+              <option>Croisière Mitsio (plongeurs)</option>
+              <option>Croisière non-plongeur</option>
+              <option>Excursions à Nosy Be</option>
+              <option>Circuit à Diego-Suarez</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-date">Période envisagée</label>
+            <select id="f-date" data-mois><option value="">Dates flexibles</option></select>
+          </div>
+          <div class="field full">
+            <label for="f-msg">Votre message</label>
+            <textarea id="f-msg" rows="4" placeholder="Nombre de personnes, niveau de plongée, envies particulières…"></textarea>
+          </div>
+        </div>
+        <div class="form-send">
+          <button class="btn btn-wa" id="sendWa" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.3-.4-.4z"/></svg>Envoyer sur WhatsApp</button>
+          <button class="btn btn-primary" id="sendMail" type="button"><svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Envoyer par e-mail</button>
+        </div>
+        <div class="form-note">Votre demande s'ouvre dans WhatsApp ou votre messagerie, prête à être envoyée à resa@oceanesdream.com.</div>
+      </div>
+      <div class="form-success" id="formSuccess">
+        <div class="big">🐋</div>
+        <h3>Votre message est prêt !</h3>
+        <p class="lead" style="margin:0 auto;">Il vient de s'ouvrir dans WhatsApp ou votre messagerie : il ne reste qu'à appuyer sur « Envoyer ». L'équipe vous répond sous 24 heures.</p>
+        <button class="btn btn-line" id="formAgain" type="button">Écrire un autre message</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ===================== PIED DE PAGE ===================== -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <img src="assets/img/logo.webp" alt="Logo Oceane's Dream">
+        </div>
+        <p class="footer-baseline">Centre de plongée, croisières et voyages à Nosy Be, Madagascar, depuis 1990.</p>
+        <div class="socials">
+          <a href="https://wa.me/261320712782" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.3-.4-.4z"/></svg></a>
+          <a href="https://www.instagram.com/oceanes_dream/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+          <a href="https://www.facebook.com/oceans.dream207/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+          <a href="https://www.tiktok.com/@ocanes.dream" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.5 2h-3v13.2a2.8 2.8 0 1 1-2.8-2.8c.3 0 .6 0 .8.1V9.4a5.8 5.8 0 1 0 5 5.8V8.6a7 7 0 0 0 4.1 1.3v-3a4.1 4.1 0 0 1-4.1-4.1V2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Plongée</h4>
+        <ul>
+          <li><a href="plongee.html#tarifs">Packs &amp; tarifs</a></li>
+          <li><a href="plongee.html#formations">Formations ADIP</a></li>
+          <li><a href="sejours-plongee-hotel.html">Plongée + hôtel</a></li>
+          <li><a href="plongee-ecoresponsable.html">Plongée écoresponsable</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Croisières</h4>
+        <ul>
+          <li><a href="croisieres.html#radama">Plongeurs · Radama</a></li>
+          <li><a href="croisieres.html#mitsio">Plongeurs · Mitsio</a></li>
+          <li><a href="croisieres.html#decouverte">Non-plongeurs</a></li>
+          <li><a href="croisieres.html#catamaran">Le catamaran</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Excursions</h4>
+        <ul>
+          <li><a href="excursions.html#journee">À la journée</a></li>
+          <li><a href="excursions.html#tour-ile">Tour de l'île</a></li>
+          <li><a href="excursions.html#diego">Circuit Diego-Suarez</a></li>
+          <li><a href="index.html#galerie">Carnet de voyage</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Infos</h4>
+        <ul>
+          <li><a href="le-centre.html">Le centre</a></li>
+          <li><a href="infos-pratiques.html">Infos voyage</a></li>
+          <li><a href="infos-pratiques.html#faq">FAQ</a></li>
+          <li><a href="#" data-demo="planning">Planning TO</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Océane's Dream · Plage d'Ambatoloaka, Be 207, Nosy Be, Madagascar · <a href="https://www.oceanesdream.com">oceanesdream.com</a></span>
+      <span>Maquette de refonte — proposition non contractuelle</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bouton flottant WhatsApp -->
+<a href="https://wa.me/261320712782" target="_blank" rel="noopener" class="fab" aria-label="Nous écrire sur WhatsApp">
+  <span class="pulse"></span><span class="txt">WhatsApp</span>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.3-.4-.4z"/></svg>
+</a>
+
+<script src="assets/js/script.js?v=362c2dae" defer></script>
+</body>
+</html>

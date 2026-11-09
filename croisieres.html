@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Croisières plongée en catamaran : Radama et Mitsio — Oceane's Dream</title>
+<meta name="description" content="Croisières de 6 jours à bord du Lagoon 450 vers les îles Radama et l'archipel des Mitsio, pour plongeurs et non-plongeurs : programmes et tarifs.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="alternate" hreflang="fr" href="croisieres.html">
+<link rel="alternate" hreflang="en" href="en/cruises.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Croisières plongée en catamaran : Radama et Mitsio — Oceane's Dream">
+<meta property="og:description" content="Croisières de 6 jours à bord du Lagoon 450 vers les îles Radama et l'archipel des Mitsio, pour plongeurs et non-plongeurs : programmes et tarifs.">
+
+<!-- ============================================================
+     OCEANE'S DREAM — maquette du site — V10
+     Page générée par sources/build.py : ne pas la modifier ici,
+     mais dans sources/pages/, sources/partiels/, style.css ou script.js.
+     ============================================================ -->
+
+<!-- Typographies : Marcellus (titres), Spectral (chiffres des titres), Outfit (texte), Caveat (accents manuscrits) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Outfit:wght@300;400;500;600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<!-- Chiffres des titres et des prix : Spectral, réduite aux dix chiffres. Dans Marcellus, le 1 se lit « I » et le 0 « O ». -->
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400&text=0123456789&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=362c2dae">
+</head>
+<body class="page-croisieres">
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<!-- ===================== NAVIGATION ===================== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Oceane's Dream — accueil">
+      <img src="assets/img/logo.webp" alt="Logo Oceane's Dream — Diving Club Madagascar">
+    </a>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="le-centre.html" data-nav="centre">Le centre</a>
+      <a href="plongee.html" data-nav="plongee">Plongée</a>
+      <a href="sejours-plongee-hotel.html" data-nav="sejours">Séjours</a>
+      <a href="croisieres.html" data-nav="croisieres" aria-current="page">Croisières</a>
+      <a href="excursions.html" data-nav="excursions">Excursions</a>
+      <a href="infos-pratiques.html" data-nav="infos">Infos</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+      <div class="lang" aria-label="Langue"><a class="on" href="croisieres.html" hreflang="fr">FR</a><a href="en/cruises.html" hreflang="en">EN</a></div>
+    </nav>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Menu mobile plein écran -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="eyebrow" style="color:var(--turquoise)">Depuis 1990</span>
+  <a href="index.html">Accueil</a>
+  <a href="le-centre.html">Le centre</a>
+  <a href="plongee.html">Plongée</a>
+  <a href="sejours-plongee-hotel.html">Séjours plongée + hôtel</a>
+  <a href="croisieres.html">Croisières</a>
+  <a href="excursions.html">Excursions</a>
+  <a href="infos-pratiques.html">Infos pratiques</a>
+  <a href="contact.html">Contact &amp; devis</a>
+  <a href="en/cruises.html" hreflang="en" class="mm-lang">🇬🇧 English version</a>
+</div>
+
+<!-- Signature : profondimètre lié au défilement -->
+<aside class="depth-gauge" id="depthGauge" aria-hidden="true">
+  <span class="depth-label">Profondeur</span>
+  <div class="depth-track"><div class="depth-fill" id="depthFill"></div></div>
+  <span class="depth-value" id="depthValue">0 m</span>
+</aside>
+
+<main id="contenu">
+<!-- ===================== BANDEAU ===================== -->
+<section class="page-hero">
+  <img src="assets/img/hero-2-catamaran.avif" alt="Le catamaran Lagoon 450 au mouillage devant un îlot" style="object-position:42% 50%">
+  <div class="wrap page-hero-content">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span>›</span>Croisières</nav>
+    <span class="eyebrow">Croisières plongée &amp; découverte</span>
+    <h1>Vivez l'exceptionnel au cœur des lagons de Nosy Be</h1>
+    <p>Six jours à bord du catamaran Lagoon 450, vers les îles Radama ou l'archipel des Mitsio, pour les plongeurs comme pour les non-plongeurs.</p>
+  </div>
+</section>
+
+<nav class="anchors" aria-label="Dans cette page">
+  <div class="wrap">
+    <a href="#catamaran">Le catamaran</a>
+    <a href="#radama">Îles Radama</a>
+    <a href="#mitsio">Archipel des Mitsio</a>
+    <a href="#decouverte">Non-plongeurs</a>
+    <a href="#location">Location à la journée</a>
+  </div>
+</nav>
+
+<!-- ===================== PROMOTION EN COURS (masquée après le départ) ===================== -->
+<section class="promo-strip dark" data-promo>
+  <div class="wrap">
+    <div class="promo-box">
+      <div class="promo-price">1 630 €</div>
+      <div class="promo-txt"><strong>Promo · croisière plongée Mitsio</strong>Départ du 12 au 17 décembre, à bord du Lagoon 450.</div>
+      <div class="countdown" id="countdown" aria-label="Temps restant avant le départ">
+        <div><b data-cd="j">–</b><small>jours</small></div>
+        <div><b data-cd="h">–</b><small>heures</small></div>
+        <div><b data-cd="m">–</b><small>min</small></div>
+        <div><b data-cd="s">–</b><small>s</small></div>
+      </div>
+    </div>
+    <a href="contact.html?envie=croisiere#devis" class="btn btn-primary">Réserver ce départ</a>
+  </div>
+</section>
+
+<!-- ===================== LE CATAMARAN ===================== -->
+<section class="sec" id="catamaran">
+  <div class="wrap">
+    <div class="split">
+      <div class="prose reveal">
+        <span class="eyebrow">L'expérience signature</span>
+        <h2>À bord du Lagoon 450</h2>
+        <p>Embarquez à bord du catamaran Lagoon 450 d'Oceane's Dream pour des croisières d'exception à destination des îles Radama et de l'archipel des Mitsio.</p>
+        <p>Conçues aussi bien pour les plongeurs que pour les non-plongeurs, nos croisières offrent une expérience unique mêlant exploration sous-marine, navigation, détente et découverte de paysages préservés.</p>
+      </div>
+      <figure class="reveal d1">
+        <img src="assets/img/catamaran-plongeurs-jupe.avif" alt="Les plongeurs se préparent sur la jupe arrière du catamaran" loading="lazy">
+        <figcaption><strong>45 pieds</strong>catamaran Lagoon 450</figcaption>
+      </figure>
+    </div>
+    <div class="specs-light reveal" style="margin-top:44px;">
+      <div class="spec"><strong>4 cabines doubles</strong><span>avec salle de bain, WC et ventilateur</span></div>
+      <div class="spec"><strong>Équipage complet</strong><span>skipper, marin, cuisinier et instructeur de plongée</span></div>
+      <div class="spec"><strong>220 volts à bord</strong><span>pour recharger caméras et appareils</span></div>
+      <div class="spec"><strong>Téléphone satellite</strong><span>pour naviguer en toute sérénité</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LES TROIS CROISIÈRES ===================== -->
+<section class="sec sable" id="programmes">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Trois croisières</span>
+      <h2>Choisissez votre archipel</h2>
+      <p class="lead">Chaque croisière dure 6 jours et 5 nuits. Les programmes ci-dessous sont des programmes types, ajustables selon la météo.</p>
+    </div>
+    <div data-onglets>
+      <div class="tabs" role="tablist" aria-label="Choisissez votre archipel">
+        <button type="button" role="tab" id="onglet-radama" aria-controls="radama" aria-selected="true"><small>Plongeurs</small>Îles Radama</button>
+        <button type="button" role="tab" id="onglet-mitsio" aria-controls="mitsio" aria-selected="false"><small>Plongeurs</small>Archipel des Mitsio</button>
+        <button type="button" role="tab" id="onglet-decouverte" aria-controls="decouverte" aria-selected="false"><small>Non-plongeurs</small>Croisière découverte</button>
+      </div>
+      <div class="tabpanel" id="radama" role="tabpanel" aria-labelledby="onglet-radama">
+        <div class="detail">
+          <div class="detail-intro">
+            <h3>Les îles Radama, un paradis sauvage</h3>
+            <p>Situées au sud de Nosy Be, les îles Radama forment un archipel préservé aux eaux cristallines et aux plages immaculées. Réputées pour leurs récifs coralliens, leur biodiversité exceptionnelle et leurs mouillages protégés, elles offrent un cadre idéal pour la plongée, le snorkeling et la découverte de la nature malgache.</p>
+            <div class="detail-meta"><span class="pill-info">6 jours / 5 nuits</span><span class="pill-info">10 plongées</span><span class="pill-info">Programme ajustable selon la météo</span></div>
+            <ol class="days">
+              <li><span class="d">J1</span><div><h4>Cap sur Nosy Iranja</h4><p>Embarquement sur notre catamaran Lagoon 450 (45 pieds). Départ de la croisière, direction Nosy Iranja : 5 h de navigation. Mouillage dans la baie.</p></div></li>
+              <li><span class="d">J2</span><div><h4>Vers l'île d'Antanimora</h4><p>Matinée : 2 plongées au large. Après-midi : 5 h de navigation, direction l'île d'Antanimora. Mouillage, visite de l'île et rencontre avec ses habitants. Plongée de nuit.</p></div></li>
+              <li><span class="d">J3</span><div><h4>L'île de Kalakajoro</h4><p>Matinée : 2 plongées au large, puis 3 h de navigation vers l'île de Kalakajoro. Mouillage, débarquement et visite de l'île.</p></div></li>
+              <li><span class="d">J4</span><div><h4>Retour à Nosy Iranja</h4><p>Matinée : 2 plongées. 4 h de navigation pour rejoindre Nosy Iranja. Mouillage et visite de l'île.</p></div></li>
+              <li><span class="d">J5</span><div><h4>Antsoha et Sakatia</h4><p>Matinée : 2 plongées. 1 h de navigation vers l'île d'Antsoha, et visite. L'après-midi, cap sur Sakatia, avec visite de l'île.</p></div></li>
+              <li><span class="d">J6</span><div><h4>Retour à Nosy Be</h4><p>Matinée : 2 plongées. Retour et débarquement à Nosy Be vers 15 h.</p></div></li>
+            </ol>
+          </div>
+          <div class="detail-side">
+            <div class="ptable-wrap">
+              <table class="ptable">
+                <caption>Tarifs de la croisière</caption>
+                <thead><tr><th scope="col">Cabine</th><th scope="col">Basse saison</th><th scope="col">Haute saison</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Cabine double, 2 plongeurs</th><td>2 180 €</td><td>2 475 €</td></tr>
+                  <tr><th scope="row">Cabine double, 1 plongeur + 1 non-plongeur</th><td>2 070 €</td><td>2 290 €</td></tr>
+                  <tr><th scope="row">Cabine single, 1 plongeur</th><td>1 630 €</td><td>1 775 €</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-white seasons">
+              <div class="season"><strong>Basse saison</strong><span>mars, avril, juin, juillet, décembre</span></div>
+              <div class="season haute"><strong>Haute saison</strong><span>mai, août, septembre, octobre, novembre</span></div>
+            </div>
+            <div class="card-white incl">
+              <div class="incl cols">
+                <div class="oui"><h4>Inclus</h4><ul><li><span>Hébergement à bord en pension complète</span></li><li><span>Eau minérale</span></li><li><span>Forfait 10 plongées</span></li></ul></div>
+                <div class="non"><h4>Non inclus</h4><ul><li><span>Équipement de plongée</span></li><li><span>Boissons (bière, soda)</span></li><li><span>Transfert aéroport</span></li><li><span>Entrées des parcs</span></li><li><span>Pourboires et extras personnels</span></li></ul></div>
+              </div>
+              <p class="frais">Frais de service : 60 € par personne, à régler au centre avant le départ de la croisière.</p>
+            </div>
+            <a href="contact.html?envie=croisiere#devis" class="btn btn-primary">Demander les dates</a>
+            <p class="note-prix" style="margin-top:0;">Nos prix sont indicatifs : croisière à la carte sur demande.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tabpanel" id="mitsio" role="tabpanel" aria-labelledby="onglet-mitsio" hidden>
+        <div class="detail">
+          <div class="detail-intro">
+            <h3>Les Mitsio, l'aventure tropicale au large de Nosy Be</h3>
+            <p>L'archipel des Mitsio est l'une des plus belles destinations de Madagascar. Entre pitons rocheux spectaculaires, plages de sable blanc et lagons turquoise, ce paradis offre des plongées exceptionnelles avec une faune marine abondante : tortues, raies, bancs de poissons tropicaux et parfois même des rencontres pélagiques inoubliables.</p>
+            <div class="detail-meta"><span class="pill-info">6 jours / 5 nuits</span><span class="pill-info">10 plongées</span><span class="pill-info">Programme ajustable selon la météo</span></div>
+            <ol class="days">
+              <li><span class="d">J1</span><div><h4>Cap sur les Mitsio</h4><p>Embarquement sur notre catamaran Lagoon 450 (45 pieds). Départ de la croisière, direction les Mitsio : 6 h de navigation. Mouillage à Tsarabanjina.</p></div></li>
+              <li><span class="d">J2</span><div><h4>Les orgues basaltiques</h4><p>Arrivée à l'archipel des Mitsio. Matinée : 2 plongées au large. Après-midi : 2 h de navigation par les orgues basaltiques. Mouillage dans la baie de Grande Mitsio, visite de l'île et rencontre avec ses habitants.</p></div></li>
+              <li><span class="d">J3</span><div><h4>L'île d'Ankarea</h4><p>Matinée : 2 plongées au large. Débarquement sur l'île d'Ankarea. Mouillage à Marimbe.</p></div></li>
+              <li><span class="d">J4</span><div><h4>Ampanisoha</h4><p>Matinée : 2 plongées. 2 h de navigation pour rejoindre Ampanisoha. Mouillage et visite de l'île.</p></div></li>
+              <li><span class="d">J5</span><div><h4>Cap sur Sakatia</h4><p>Matinée : 2 plongées. Départ pour Sakatia, environ 5 h de navigation, puis mouillage.</p></div></li>
+              <li><span class="d">J6</span><div><h4>Retour à Nosy Be</h4><p>Matinée : 2 plongées. Retour et débarquement à Nosy Be vers 15 h.</p></div></li>
+            </ol>
+          </div>
+          <div class="detail-side">
+            <div class="ptable-wrap">
+              <table class="ptable">
+                <caption>Tarifs de la croisière</caption>
+                <thead><tr><th scope="col">Cabine</th><th scope="col">Basse saison</th><th scope="col">Haute saison</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Cabine double, 2 plongeurs</th><td>2 180 €</td><td>2 475 €</td></tr>
+                  <tr><th scope="row">Cabine double, 1 plongeur + 1 non-plongeur</th><td>2 070 €</td><td>2 290 €</td></tr>
+                  <tr><th scope="row">Cabine single, 1 plongeur</th><td>1 630 €</td><td>1 775 €</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-white seasons">
+              <div class="season"><strong>Basse saison</strong><span>mars, avril, juin, juillet, décembre</span></div>
+              <div class="season haute"><strong>Haute saison</strong><span>mai, août, septembre, octobre, novembre</span></div>
+            </div>
+            <div class="card-white incl">
+              <div class="incl cols">
+                <div class="oui"><h4>Inclus</h4><ul><li><span>Hébergement à bord en pension complète</span></li><li><span>Eau minérale</span></li><li><span>Forfait 10 plongées</span></li></ul></div>
+                <div class="non"><h4>Non inclus</h4><ul><li><span>Équipement de plongée</span></li><li><span>Boissons (bière, soda)</span></li><li><span>Transfert aéroport</span></li><li><span>Entrées des parcs</span></li><li><span>Pourboires et extras personnels</span></li></ul></div>
+              </div>
+              <p class="frais">Frais de service : 60 € par personne, à régler au centre avant le départ de la croisière.</p>
+            </div>
+            <a href="contact.html?envie=croisiere#devis" class="btn btn-primary">Demander les dates</a>
+            <p class="note-prix" style="margin-top:0;">Nos prix sont indicatifs : croisière à la carte sur demande.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tabpanel" id="decouverte" role="tabpanel" aria-labelledby="onglet-decouverte" hidden>
+        <div class="detail">
+          <div class="detail-intro">
+            <h3>Un paradis aussi pour les non-plongeurs</h3>
+            <p>Pas besoin de plonger pour tomber amoureux des Radama et des Mitsio. Imaginez-vous réveillé chaque matin dans une nouvelle baie aux eaux turquoise, entouré d'îles sauvages et de plages désertes accessibles uniquement par bateau. Les longues plages de sable blanc invitent à la baignade, aux balades les pieds dans l'eau et à la découverte d'une nature préservée, loin du tourisme de masse.</p>
+            <div class="detail-meta"><span class="pill-info">6 jours / 5 nuits</span><span class="pill-info">Snorkeling, îles et villages</span><span class="pill-info">Programme ajustable selon la météo</span></div>
+            <ol class="days">
+              <li><span class="d">J1</span><div><h4>Nosy Tanikely</h4><p>Embarquement sur notre catamaran Lagoon 450 (45 pieds). Départ à 9 h, direction Tanikely, une réserve sous-marine : snorkeling et balade sur la plage. Vers 15 h, cap sur la baie des Russes pour le mouillage.</p></div></li>
+              <li><span class="d">J2</span><div><h4>Nosy Iranja</h4><p>2 h de navigation vers Nosy Iranja : un village authentique, des plages exceptionnelles et deux îles reliées par un banc de sable. Mouillage à Nosy Iranja.</p></div></li>
+              <li><span class="d">J3</span><div><h4>Les îles de Kalakajoro</h4><p>Navigation vers les îles de Kalakajoro. Débarquement pour une balade dans une végétation abondante, puis visite du village de pêcheurs. Mouillage pour la nuit.</p></div></li>
+              <li><span class="d">J4</span><div><h4>Antanimora, l'île aux oiseaux</h4><p>Visite d'Antanimora, occupée par des milliers d'oiseaux. Visite du village, baignade. Mouillage à Baramahamay.</p></div></li>
+              <li><span class="d">J5</span><div><h4>Retour à Nosy Iranja</h4><p>Escale à Nosy Iranja, l'île aux tortues, et sa belle plage. Mouillage dans la baie des Russes.</p></div></li>
+              <li><span class="d">J6</span><div><h4>Antsoha, l'île aux lémuriens</h4><p>Cap sur Antsoha, l'île aux lémuriens, puis navigation vers Ankazoberavina : balade et plage. Retour sur Nosy Be.</p></div></li>
+            </ol>
+          </div>
+          <div class="detail-side">
+            <div class="ptable-wrap">
+              <table class="ptable">
+                <caption>Tarifs de la croisière</caption>
+                <thead><tr><th scope="col">Cabine</th><th scope="col">Prix</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Cabine double, 2 personnes</th><td>2 010 €</td></tr>
+                  <tr><th scope="row">Cabine single, 1 personne</th><td>1 440 €</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-white incl">
+              <div class="incl cols">
+                <div class="oui"><h4>Inclus</h4><ul><li><span>Hébergement à bord en pension complète</span></li><li><span>Eau minérale et sodas</span></li><li><span>Palmes, masque, tuba</span></li><li><span>Entrées des parcs</span></li></ul></div>
+                <div class="non"><h4>Non inclus</h4><ul><li><span>Transfert aéroport</span></li><li><span>Caisse de bord</span></li><li><span>Pourboires et extras personnels</span></li></ul></div>
+              </div>
+              <p class="frais">Frais de service : 60 € par personne, à régler au centre avant le départ de la croisière.</p>
+            </div>
+            <a href="contact.html?envie=croisiere#devis" class="btn btn-primary">Demander les dates</a>
+            <p class="note-prix" style="margin-top:0;">Nos prix sont indicatifs : croisière à la carte sur demande.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LOCATION À LA JOURNÉE ===================== -->
+<section class="sec" id="location">
+  <div class="wrap split inverse">
+    <div class="reveal">
+      <span class="eyebrow">Rien que pour vous</span>
+      <h2>Le catamaran à la journée</h2>
+      <p class="lead">Pour une journée en famille ou entre amis, louez le Lagoon 450 avec son équipage et partez à la voile autour de Nosy Be.</p>
+      <div class="card-white pcard" style="margin-top:1.8rem;">
+        <ul class="plist">
+          <li><span>Location du catamaran, 1 à 8 personnes</span><i></i><b>650 €</b></li>
+          <li><span>Repas (non inclus)</span><i></i><b>10 € / personne</b></li>
+        </ul>
+        <p class="note-prix">Au-delà de 4 personnes, demi-tarif pour les enfants de moins de 12 ans.</p>
+      </div>
+      <a href="contact.html?envie=croisiere#devis" class="btn btn-line" style="margin-top:1.6rem;">Réserver une journée</a>
+    </div>
+    <figure class="reveal d1">
+      <img src="assets/img/catamaran-vue-du-ciel.avif" alt="Le catamaran vu du ciel, au mouillage au coucher du soleil" loading="lazy">
+    </figure>
+  </div>
+</section>
+
+<!-- ===================== EN IMAGES ===================== -->
+<section class="sec" style="padding-top:0;">
+  <div class="wrap">
+    <div class="strip reveal">
+      <img src="assets/img/catamaran-pont.avif" alt="Le pont du catamaran pendant une escale" loading="lazy">
+      <img src="assets/img/accueil-a-bord.avif" alt="L'équipage accueille ses passagers à bord" loading="lazy">
+      <img src="assets/img/catamaran-snorkeling.avif" alt="Baignade et snorkeling autour du catamaran" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ===================== APPEL ===================== -->
+<section class="cta-band">
+  <div class="wrap reveal">
+    <span class="eyebrow">Larguez les amarres</span>
+    <h2>Quand souhaitez-vous embarquer ?</h2>
+    <p>Dites-nous votre archipel, vos dates et le nombre de cabines : l'équipe vous répond sous 24 heures.</p>
+    <div class="cta-actions">
+      <a href="contact.html?envie=croisiere#devis" class="btn btn-primary">Demander un devis croisière</a>
+      <a href="https://wa.me/261320712782" target="_blank" rel="noopener" class="btn btn-wa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.3-.4-.4z"/></svg>Écrire sur WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ===================== PIED DE PAGE ===================== -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <img src="assets/img/logo.webp" alt="Logo Oceane's Dream">
+        </div>
+        <p class="footer-baseline">Centre de plongée, croisières et voyages à Nosy Be, Madagascar, depuis 1990.</p>
+        <div class="socials">
+          <a href="https://wa.me/261320712782" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.3-.4-.4z"/></svg></a>
+          <a href="https://www.instagram.com/oceanes_dream/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+          <a href="https://www.facebook.com/oceans.dream207/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+          <a href="https://www.tiktok.com/@ocanes.dream" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.5 2h-3v13.2a2.8 2.8 0 1 1-2.8-2.8c.3 0 .6 0 .8.1V9.4a5.8 5.8 0 1 0 5 5.8V8.6a7 7 0 0 0 4.1 1.3v-3a4.1 4.1 0 0 1-4.1-4.1V2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Plongée</h4>
+        <ul>
+          <li><a href="plongee.html#tarifs">Packs &amp; tarifs</a></li>
+          <li><a href="plongee.html#formations">Formations ADIP</a></li>
+          <li><a href="sejours-plongee-hotel.html">Plongée + hôtel</a></li>
+          <li><a href="plongee-ecoresponsable.html">Plongée écoresponsable</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Croisières</h4>
+        <ul>
+          <li><a href="croisieres.html#radama">Plongeurs · Radama</a></li>
+          <li><a href="croisieres.html#mitsio">Plongeurs · Mitsio</a></li>
+          <li><a href="croisieres.html#decouverte">Non-plongeurs</a></li>
+          <li><a href="croisieres.html#catamaran">Le catamaran</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Excursions</h4>
+        <ul>
+          <li><a href="excursions.html#journee">À la journée</a></li>
+          <li><a href="excursions.html#tour-ile">Tour de l'île</a></li>
+          <li><a href="excursions.html#diego">Circuit Diego-Suarez</a></li>
+          <li><a href="index.html#galerie">Carnet de voyage</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Infos</h4>
+        <ul>
+          <li><a href="le-centre.html">Le centre</a></li>
+          <li><a href="infos-pratiques.html">Infos voyage</a></li>
+          <li><a href="infos-pratiques.html#faq">FAQ</a></li>
+          <li><a href="#" data-demo="planning">Planning TO</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Océane's Dream · Plage d'Ambatoloaka, Be 207, Nosy Be, Madagascar · <a href="https://www.oceanesdream.com">oceanesdream.com</a></span>
+      <span>Maquette de refonte — proposition non contractuelle</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bouton flottant WhatsApp -->
+<a href="https://wa.me/261320712782" target="_blank" rel="noopener" class="fab" aria-label="Nous écrire sur WhatsApp">
+  <span class="pulse"></span><span class="txt">WhatsApp</span>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.3-.4-.4z"/></svg>
+</a>
+
+<script src="assets/js/script.js?v=362c2dae" defer></script>
+</body>
+</html>
